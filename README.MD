@@ -35,7 +35,7 @@
 or
 `GET /api/v1/establishment/list/`
 
-With pagination param
+#### With pagination param
 
 `GET /api/v1/product/list/?page=1` 
 or
@@ -69,6 +69,7 @@ or
       "locations": "string",
       "opening_hours": "7-24"
     }
+* When creating establishment "opening_hours" must be in format "7-24", "12-23" 
 
 #### Response
 
@@ -83,11 +84,11 @@ or
 or
 
     {
-        "id": 0,
+        "id": 1,
         "name": "string",
         "description": "string",
         "locations": "string",
-        "opening_hours": "strin"
+        "opening_hours": "7-24"
     }
 
 
@@ -141,6 +142,7 @@ or
       "locations": "string",
       "opening_hours": "7-24"
     }
+* When updating establishment "opening_hours" must be like  "7-24", "12-23" 
 
 #### Response
 
@@ -182,6 +184,7 @@ or
       "locations": "string",
       "opening_hours": "7-24"
     }
+* When creating establishment "opening_hours" must be like "7-24", "12-23"
 
 #### Response
 
