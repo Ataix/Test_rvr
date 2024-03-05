@@ -1,6 +1,6 @@
 
 # Test assignment for Backend developer
-### Python 3.11, Django 4.2, DRF, PostgreSQL, Docker
+#### Python 3.11, Django 4.2, DRF, PostgreSQL, Docker
 
 ### Developed according the task:
 
@@ -14,10 +14,10 @@
 
 #### Swagger localhost/api/schema/swagger-ui/
 
-### Preparation for launch:
+## Preparation for launch:
 1. You need to fill out the file ".env.dev". Example - ".env.dev-example". 
 
-### Launch:
+## Launch:
     1.  docker-compose build
     2.  docker-compose up
     * Tests will run shortly after "up" command. Result would be seen in terminal
